@@ -41,9 +41,7 @@ const SplashScreenComponent = () => {
     <View style={styles.container}>
       {/* Animated Text with Emojis */}
       <Animated.View style={animatedStyle}>
-        <Text style={styles.emoji}>🚀</Text>
-        <Text style={styles.text}>Welcome to PNG's One and Only</Text>
-        <Text style={styles.emoji}>✨🎉</Text>
+        <Text style={styles.text}>Welcome to 2024 CENSUS</Text>
       </Animated.View>
     </View>
   );
@@ -53,7 +51,7 @@ const SplashScreenComponent = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#4CAF50", // Green background color for a modern splash
+    backgroundColor: "#0284c7", // background color for a modern splash
     justifyContent: "center",
     alignItems: "center",
   },
@@ -63,10 +61,6 @@ const styles = StyleSheet.create({
     color: "#fff", // White text for contrast
     textAlign: "center",
     marginTop: 10,
-  },
-  emoji: {
-    fontSize: 64, // Large emoji size
-    textAlign: "center",
   },
 });
 
